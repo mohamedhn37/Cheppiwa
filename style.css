@@ -3,7 +3,7 @@
     font-family: 'karla';
     margin: 0;
     padding: 0;
-    transition: all 3s;
+    transition: all 3s in;
 }
 body{
  background-color: #F5F4F0;
@@ -40,6 +40,7 @@ main{
     background-color: #9BCCBB;
     border-radius: 2px;
 }
+ 
 .container-left .container-left-img img{
     position: absolute;
     top: -45px;
@@ -78,6 +79,7 @@ main{
     border-radius: 2px;
     background-color: #9BCCBB;
 }
+    
 .container-right .container-right-img img{
     position: absolute;
     top: -45px;
