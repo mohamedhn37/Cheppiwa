@@ -201,5 +201,89 @@ footer ul li i{
     color: #FFFFFF;
     background-color: #5A5661;
 }
-
 /****end footer*****/
+/****guitare boy*****/
+.play-guitar-boy img{
+    margin: 30px;
+    padding: 50px;
+    animation: guitar 2s infinite;
+}
+@keyframes guitar {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(5deg);
+    }
+    15%{
+        transform: rotate(10deg);
+    }
+    25%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(10deg);
+    }
+    55%{
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-5deg);
+    }
+    80%{
+        transform: rotate(-10deg);
+    }
+    95%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+/****guitare boy*****/
+/****squar*****/
+.one{
+    margin: 30px auto;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    animation: turn 1s infinite;
+}
+.two{
+
+    width: 100px;
+    height: 0px;
+    background-color: yellow;
+    animation: bg-color 1s infinite;
+    
+}
+
+@keyframes bg-color {
+    0%{
+        height: 0%;
+      } 
+    25%{
+        height: 50%;
+      } 
+      75%{
+        height: 100%;
+      }
+      100%{
+        height: 0%;
+      }
+      
+}
+@keyframes turn {
+    0%,50%{
+      transform: rotate(180deg);
+    } 
+    
+    100%{
+      transform: rotate(0deg);
+    }
+
+}
+/****squar*****/
